@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+
+
+body {
+	padding-top: 1em;
+}
+
+.container-fluid {
+	font-size: 120px;
+	font-family: 'Black And White Picture', sans-serif;
+	height: 40vh;
+	background-image: url(../image/simpson-playa-lake-hero.jpg);
+}
+.icon-c:before {  content: 'C#'; }
+
+p {}
+
+.nav-item > a:hover {
+	background-color: #FDD6AB;
+}
+
+.container {
+
+	width: 80vw;
+}
+
+.jumbotron {
+	background-color: #E4BFA5;
+}
+
+.footer {
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+.btn {
+	background-color: #C7AC9E;
+}
+
+.navbar-dark {
+	background-color: #94878E !important;
+
+}
+
+.btn:hover {
+	background-color: #FDD6AB;
+}
+
+/*
+.card{
+	background-color: #365A83;
+}
+*/
+@media (max-width: 700px) {
+	.container {
+		width: 100vw;
+
+	}
+
+	.container-fluid {
+		font-size: 4em;
+	}
+}
+
+
+/*
+.fab{
+	margin: 20px;
+}
+.fas{
+	margin-left: 20px;
+}
+*/
